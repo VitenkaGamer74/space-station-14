@@ -121,3 +121,29 @@
         - id: LaserCarabinePowerCell
         - id: LaserCarabinePowerCell
         - id: StimpackERT
+
+- type: entity
+  parent: [ClothingBackpackSecurity]
+  id: ClothingBackpackRedWingsSecurityFilled
+  name: red wings security backpack
+  description: A backpack containing the equipment of a Red Wings squad guard.
+  suffix: Red Wings, Filled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalBrigmedic
+        - id: MedkitCombatFilled
+        - id: CrowbarRed
+
+- type: entity
+  parent: [ClothingBackpackSecurity]
+  id: ClothingBackpackRedWingsPilotFilled
+  name: red wings pilot backpack
+  description: A backpack containing the Red Wings squad pilot's equipment.
+  suffix: Red Wings, Filled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalBrigmedic
+        - id: MedkitCombatFilled
+        - id: CrowbarRed

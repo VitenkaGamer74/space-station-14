@@ -522,3 +522,71 @@
           amount: 2
         - id: SyringeSaline
           amount: 2
+
+- type: entity
+  parent: ClothingBeltSecurityMedical
+  id: ClothingBeltRedWingsMedicalFilled
+  description: Can hold various medical equipment.
+  suffix: Red Wings, Filled
+  name: Red Wings medical belt
+  components:
+    - type: StorageFill
+      contents:
+        - id: MedicatedSuture
+          amount: 1
+        - id: RegenerativeMesh
+          amount: 1
+        - id: CombatMedipen
+          amount: 2
+        - id: PunctAutoInjector
+          amount: 1
+        - id: PyraAutoInjector
+          amount: 1
+        - id: AirlossAutoInjector
+          amount: 1
+        - id: AntiPosionMedipen
+          amount: 1
+        - id: EmergencyMedipen
+          amount: 2
+    
+- type: entity
+  parent: ClothingBeltSecurity
+  id: ClothingBeltRedWingsSecurityFilled
+  description: Can hold security gear like handcuffs and flashes.
+  suffix: Red Wings, Filled
+  name: Red Wings security belt
+  components:
+  - type: StorageFill
+    contents: 
+      - id: Stunbaton
+        amount: 1
+      - id: LaserSMGPowerCell
+        amount: 4
+      - id: GrenadeFlashBang
+        amount: 1
+      - id: TearGasGrenade
+        amount: 1
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+
+- type: entity
+  parent: ClothingBeltSecurity
+  id: ClothingBeltRedWingsPilotFilled
+  description: Can hold security gear like handcuffs and flashes.
+  suffix: Red Wings, Filled
+  name: Red Wings pilot belt
+  components:
+  - type: StorageFill
+    contents: 
+      - id: Stunbaton
+        amount: 1
+      - id: Zipties
+        amount: 2
+      - id: Flash
+        amount: 1
+      - id: MagazinePistol
+        amount: 1
+      - id: MagazinePistolRubber
+        amount: 2
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
