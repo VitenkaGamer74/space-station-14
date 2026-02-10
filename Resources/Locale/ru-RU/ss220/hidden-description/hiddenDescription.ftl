@@ -21,6 +21,11 @@ hidden-desc-AdrenalImplant-medical = [color=#52B4E9]Этот имплант со
 hidden-desc-AdrenalImplant-research = [color=#D381C9]Имплант с запасом лечебных растворов, предназначенных для поддержки жизненных функций.[/color]
 hidden-desc-AdrenalImplant-syndicate = [color=#E31735]Имплант с инъекционным механизмом, содержащий жидкости для ускоренного восстановления организма.[/color]
 
+hidden-desc-DeathRattleImplanterFreelance-medical = [color=#52B4E9]Сверив серийные номера, вы понимаете, что это легальный, сертифицированный имплант Interdyne Pharmaceutics внутри.[/color]
+hidden-desc-DeathRattleImplanterFreelance-research = [color=#D381C9]Внутри имплантера находится имплант "Предсмертный хрип".[/color]
+hidden-desc-DeathRattleImplanterFreelance-security = [color=#009ae1]Внутри имплантера находится имплант "Предсмертный хрип" гражданского образца.[/color]
+hidden-desc-DeathRattleImplanterFreelance-syndicate = [color=#e31735]Внутри имплант "Предсмертный хрип" гражданского образца. Сообщит в неизвестный радиоканал, если носитель окажется в критическом состоянии или погибнет.[/color]
+
 # Regular decriptions below
 
 ent-ThermalVisorImplanter = { ent-Implanter }
@@ -52,6 +57,14 @@ ent-AdrenalImplant = имплант Адреналина
 
 ent-ActionActivateAdrenalImplant = Ввести жидкость
     .desc = Вводит небольшую дозу разных лечащих веществ, эффект держится около 45 секунд. Можно ввести в предсмертном состоянии
+
+ent-DeathRattleImplanterFreelance = { ent-Implanter }
+    .desc = { ent-Implanter.desc }
+    .suffix = Freelance Rattle
+
+ent-DeathRattleImplantFreelance = имплант "Предсмертный хрип"
+    .desc = Микрочип, который вживляют под кожу.   
+
 # Uplink locale
 
 uplink-thermal-glasses-name = Термальные очки

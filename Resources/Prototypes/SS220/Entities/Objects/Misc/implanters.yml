@@ -32,3 +32,12 @@
   components:
   - type: Implanter
     implant: AdrenalImplant
+
+- type: entity
+  id: DeathRattleImplanterFreelance
+  name: freelance death rattle implanter
+  description: Death rattle.
+  parent: BaseImplantOnlyImplanter
+  components:
+  - type: Implanter
+    implant: DeathRattleImplantFreelance
