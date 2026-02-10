@@ -150,3 +150,42 @@
       - TraitorRole
       - NukeOperative
 
+- type: entity
+  parent: DeathRattleImplant
+  id: DeathRattleImplantFreelance
+  name: freelance death rattle implant
+  description: This implant will inform the Security radio channel should the user fall into critical condition or die.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: RattleOnTrigger
+    radioChannel: Freelance
+  - type: HiddenDescription
+    entries:
+    - label: hidden-desc-DeathRattleImplanterFreelance-medical
+      jobRequired:
+      - Paramedic
+      - MedicalDoctor
+      - SeniorPhysician
+      - Brigmedic
+      - ChiefMedicalOfficer
+    - label: hidden-desc-DeathRattleImplanterFreelance-research
+      jobRequired:
+      - ResearchAssistant
+      - ResearchDirector
+      - Scientist
+      - Borg
+      - SeniorResearcher
+    - label: hidden-desc-DeathRattleImplanterFreelance-security
+      jobRequired:
+      - Captain
+      - HeadOfSecurity
+      - SeniorOfficer
+      - SecurityOfficer
+      - Warden
+      - Detective
+      - BlueShield
+    - label: hidden-desc-DeathRattleImplanterFreelance-syndicate
+      whitelistMindRoles:
+      - TraitorRole
+      - NukeOperative
+      - Thief
