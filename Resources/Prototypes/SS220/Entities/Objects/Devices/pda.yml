@@ -507,12 +507,12 @@
 
 - type: entity
   parent: BasePDA
-  id: RedWingsParamedPDA
-  name: red wings paramedic PDA
+  id: RedWingsMedicPDA
+  name: red wings medic PDA
   description: Shiny and sterile.
   components:
   - type: Pda
-    id: ParamedicIDCard
+    id: RedWingsMedicIDCard
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -559,7 +559,7 @@
   description: The cartridge port is pretty worn.
   components:
   - type: Pda
-    id: SecurityPilotIDCard
+    id: RedWingsPilotIDCard
   - type: Appearance
     appearanceDataInit:
       enum.PdaVisuals.PdaType:
@@ -605,4 +605,4 @@
   description: Small blood stains are visible on the PDA
   components:
   - type: Pda
-    id: SecurityPilotIDCard
+    id: RedWingsOfficerIDCard

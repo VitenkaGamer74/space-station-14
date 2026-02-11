@@ -477,7 +477,7 @@
   parent: [ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitRedWingsSec
   name: red wings security hardsuit
-  description: A heavy armored suit manufactured by Cybersan for Red Wings security officers.
+  description: A heavy armored suit manufactured by Cybersun for Red Wings security officers.
   components:
   - type: Sprite
     sprite: SS220/Clothing/OuterClothing/Hardsuits/redwings_sec.rsi
@@ -523,7 +523,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitRedWingsMedic
-  name: red wings paramedic hardsuit
+  name: red wings medic hardsuit
   description: A lightweight version of the Red Wings Security hardsuit.
   components:
   - type: Sprite

@@ -37,3 +37,19 @@
         - id: BoxFolderBlue
         - id: RubberStampApproved
         - id: RubberStampDenied
+
+- type: entity
+  parent: ClothingBackpackSatchelBrigmedic
+  id: ClothingBackpackSatchelRedWingsParamedic
+  name: red wings paramedic satchel
+  description: A sterile satchel for medical related needs.
+  suffix: Red Wings, Filled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalBrigmedic
+        - id: MedkitCombatFilled
+        - id: DefibrillatorCompact
+        - id: LaserSMGPowerCell
+        - id: LaserSMGPowerCell
+        - id: CrowbarRed
