@@ -273,7 +273,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: RedWingsParamedicIDCard
+  id: RedWingsMedicIDCard
   name: Red Wings Paramedic IDCard
   components:
   - type: Sprite

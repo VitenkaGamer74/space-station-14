@@ -30,3 +30,15 @@ ent-ClothingBeltMedicalInterdyneFilled = { ent-ClothingBeltMedicalInterdyne }
 ent-ClothingBeltERTGammaMedicalFilled = { ent-ClothingBeltSecurityMedical }
     .desc = { ent-ClothingBeltMedical.desc }
     .suffix = Заполненный
+
+ent-ClothingBeltRedWingsMedicalFilled = { ent-ClothingBeltSecurityMedical }
+    .desc = { ent-ClothingBeltMedical.desc }
+    .suffix = Заполненный, Red Wings
+
+ent-ClothingBeltRedWingsSecurityFilled = { ent-ClothingBeltSecurity }
+    .desc = { ent-ClothingBeltMedical.desc }
+    .suffix = Заполненный, Red Wings
+
+ent-ClothingBeltRedWingsPilotFilled = { ent-ClothingBeltSecurity }
+    .desc = { ent-ClothingBeltMedical.desc }
+    .suffix = Заполненный, Red Wings

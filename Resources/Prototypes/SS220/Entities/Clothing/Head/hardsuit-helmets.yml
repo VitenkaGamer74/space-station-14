@@ -230,8 +230,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitRedWingsMedic
-  name: red wings paramedic hardsuit helmet
-  description: Helmet from a Red Wings paramedic hardsuit.
+  name: red wings medic hardsuit helmet
+  description: Helmet from a Red Wings medic hardsuit.
   components:
   - type: BreathMask
   - type: Sprite
