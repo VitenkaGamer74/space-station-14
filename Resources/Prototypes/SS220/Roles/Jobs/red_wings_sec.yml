@@ -1,0 +1,35 @@
+- type: job
+  id: RedWingsOfficer
+  name: red wings security
+  description: Ensure the safety of the client and your team
+  playTimeTracker: JobRedWingsSecurity
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 54000
+  startingGear: RedWingsSecurityGear
+  icon: "RedWingsOfficer"
+  canBeAntag: false
+  setPreference: false
+  overrideConsoleVisibility: true
+  access:
+  - Maintenance
+  - Service
+  - External
+  - Medical
+
+- type: startingGear
+  id: RedWingsSecurityGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMilitaryFeldsher
+    back: ClothingBackpackRedWingsSecurityFilled
+    shoes: ClothingShoesBootsCombatFilled
+    eyes: ClothingEyesHudMedSec
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitRedWingsSec
+    suitstorage: WeaponLaserSMG
+    id: RedWingsSecurityPDA
+    ears: ClothingHeadsetAltFreelancer
+    belt: ClothingBeltRedWingsSecurityFilled
+    pocket1: DoubleEmergencyOxygenTankFilled
+    pocket2: WeaponDisabler
