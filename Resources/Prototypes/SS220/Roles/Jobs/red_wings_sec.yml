@@ -30,6 +30,14 @@
     suitstorage: WeaponLaserSMG
     id: RedWingsSecurityPDA
     ears: ClothingHeadsetAltFreelancer
-    belt: ClothingBeltRedWingsSecurityFilled
+    belt: ClothingBeltSecurity
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: WeaponDisabler
+  storage:
+    belt: 
+    - Stunbaton
+    - Flash
+    - GrenadeFlashBang
+    - TearGasGrenade
+    - Handcuffs
+    - Handcuffs

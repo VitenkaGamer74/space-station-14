@@ -11,3 +11,17 @@
   - type: RandomSpawner
     prototypes:
     - RandomHumanoidVisitorTourist
+
+- type: entity
+  name: visiting red wings security
+  id: VisitorRedWingsOfficerSpawner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Structures/Decoration/banner.rsi
+        state: banner
+  - type: RandomSpawner
+    prototypes:
+    - RandomHumanoidRedWingsOfficerTourist

@@ -7,3 +7,13 @@
       state: passenger
     - type: RandomHumanoidSpawner
       settings: VisitorTourist
+
+- type: entity
+  id: RandomHumanoidRedWingsOfficerTourist
+  name: visiting tourist ghost role
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: passenger
+    - type: RandomHumanoidSpawner
+      settings: RedWingsOfficer
