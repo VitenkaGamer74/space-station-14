@@ -8,3 +8,42 @@
     - type: Loadout
       prototypes: [ VisitorTourist ]
       roleLoadout: [ RoleSurvivalStandard ]
+
+- type: randomHumanoidSettings
+  id: RedWings
+  parent: EventHumanoid
+  speciesBlacklist: [ Felinid, Diona, Arachnid, Moth, Vox, Reptilian, Skeleton, SlimePerson, Vulpkanin, Tajaran, Dwarf]
+  components:
+    - type: GhostRole
+      name: ghost-role-information-redwing-name
+      description: ghost-role-information-redwing-description
+      rules: ghost-role-information-nonantagonist-rules
+      raffle:
+        settings: short
+
+- type: randomHumanoidSettings
+  id: RegWingsOfficer
+  parent: RedWings
+  components:
+    - type: GhostRole
+      name: job-name-redwing-officer
+    - type: Loadout
+      prototypes: [ RedWingsOfficerGear ]
+
+- type: randomHumanoidSettings
+  id: RegWingsMedic
+  parent: RedWings
+  components:
+    - type: GhostRole
+      name: job-name-redwing-medic
+    - type: Loadout
+      prototypes: [ RedWingsMedicGear ]
+
+- type: randomHumanoidSettings
+  id: RegWingsPilot
+  parent: RedWings
+  components:
+    - type: GhostRole
+      name: job-name-redwing-pilot
+    - type: Loadout
+      prototypes: [ RedWingsPilotGear ]
