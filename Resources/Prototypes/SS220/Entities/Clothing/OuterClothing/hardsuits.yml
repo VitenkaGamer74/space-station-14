@@ -514,11 +514,6 @@
       Male: MaleEvil
       Female: FemaleEvil
       Unsexed: MaleEvil
-  - type: PointLight
-    color: SkyBlue
-    radius: 1.5
-    energy: 0.3
-    netsync: false
 
 - type: entity
   parent: [ClothingOuterHardsuitBase]
@@ -558,11 +553,6 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-  - type: PointLight
-    color: SkyBlue
-    radius: 1.5
-    energy: 0.3
-    netsync: false
 
 - type: entity
   parent: [ClothingOuterHardsuitBase]
@@ -608,8 +598,3 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-  - type: PointLight
-    color: SkyBlue
-    radius: 1.5
-    energy: 0.3
-    netsync: false

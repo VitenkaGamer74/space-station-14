@@ -7,3 +7,33 @@
       state: passenger
     - type: RandomHumanoidSpawner
       settings: VisitorTourist
+
+- type: entity
+  id: RandomHumanoidRegWingsOfficer
+  name: red wings officer
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: passenger
+    - type: RandomHumanoidSpawner
+      settings: RegWingsOfficer
+
+- type: entity
+  id: RandomHumanoidRegWingsMedic
+  name: red wings medic
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: passenger
+    - type: RandomHumanoidSpawner
+      settings: RegWingsMedic
+
+- type: entity
+  id: RandomHumanoidRegWingsPilot
+  name: red wings pilot
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: passenger
+    - type: RandomHumanoidSpawner
+      settings: RegWingsPilot
