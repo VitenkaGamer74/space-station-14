@@ -1,0 +1,14 @@
+- type: job
+  id: RedWingsOfficer
+  name: job-name-red-wings-officer
+  description: job-description-red-wings-officer
+  playTimeTracker: JobRedWingsOfficer
+  canBeAntag: false
+  icon: RedWingsOfficer
+  setPreference: false
+  overrideConsoleVisibility: true
+  access:
+  - Medical
+  - Brig
+  - Maintenance
+  - External

@@ -1,0 +1,14 @@
+- type: job
+  id: RedWingsMedic
+  name: job-name-red-wings-medic
+  description: job-description-red-wings-medic
+  playTimeTracker: JobRedWingsMedic
+  canBeAntag: false
+  icon: RedWingsMedic
+  setPreference: false
+  overrideConsoleVisibility: true
+  access:
+  - Medical
+  - Brig
+  - Maintenance
+  - External
