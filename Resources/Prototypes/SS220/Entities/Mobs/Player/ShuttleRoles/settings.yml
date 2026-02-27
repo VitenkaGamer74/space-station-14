@@ -29,6 +29,9 @@
       name: job-name-redwing-officer
     - type: Loadout
       prototypes: [ RedWingsOfficerGear ]
+    - type: AutoImplant
+      implants:
+      - DeathRattleImplantFreelance
 
 - type: randomHumanoidSettings
   id: RegWingsMedic
@@ -38,6 +41,9 @@
       name: job-name-redwing-medic
     - type: Loadout
       prototypes: [ RedWingsMedicGear ]
+    - type: AutoImplant
+      implants:
+      - DeathRattleImplantFreelance
 
 - type: randomHumanoidSettings
   id: RegWingsPilot
@@ -47,3 +53,6 @@
       name: job-name-redwing-pilot
     - type: Loadout
       prototypes: [ RedWingsPilotGear ]
+    - type: AutoImplant
+      implants:
+      - DeathRattleImplantFreelance
