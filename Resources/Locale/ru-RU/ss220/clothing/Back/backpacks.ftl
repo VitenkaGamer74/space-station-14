@@ -22,13 +22,6 @@ ent-ClothingBackpackERTLeaderGammaFilled = { ent-ClothingBackpackERTLeader }
     .suffix = Гамма ОБР, заполненный
     .desc = { ent-ClothingBackpackERTLeader.desc }
 
-ent-ClothingBackpackRedWingsSecurityFilled = { ent-ClothingBackpackSecurity }
-    .suffix = Red Wings, заполненный
-    .desc = { ent-ClothingBackpackSecurity.desc }
-ent-ClothingBackpackRedWingsPilotFilled = { ent-ClothingBackpackSecurity }
-    .suffix = Red Wings, заполненный
-    .desc = { ent-ClothingBackpackSecurity.desc }
-
 ent-ClothingBackpackERTSecurityGammaFilled = { ent-ClothingBackpackERTSecurity }
     .suffix = Гамма ОБР, заполненный
     .desc = { ent-ClothingBackpackERTSecurity.desc }

@@ -517,7 +517,7 @@
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
        !type:String
-       pda-red-wings-paramedic
+       pda-red-wings-medic
   - type: PdaBorderColor
     borderColor: "#36664c"
     accentHColor: "#731611"
@@ -536,7 +536,7 @@
       map: [ "enum.PdaVisualLayers.IdLight" ]
       visible: false
   - type: Icon
-    state: pda-red-wings-paramedic
+    state: pda-red-wings-medic
   - type: CartridgeLoader
     preinstalled:
     - CrewManifestCartridge

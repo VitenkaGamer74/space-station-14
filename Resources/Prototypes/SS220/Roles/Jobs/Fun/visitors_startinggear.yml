@@ -27,7 +27,7 @@
   id: RedWingsOfficerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryFeldsher
-    back: ClothingBackpackRedWingsSecurityFilled
+    back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesHudMedSec
     mask: ClothingMaskNeckGaiter
@@ -49,12 +49,16 @@
     - TearGasGrenade
     - Zipties
     - Zipties
+    back:
+    - BoxSurvivalBrigmedic
+    - CrowbarRed
+    - MedkitCombatFilled
 
 - type: startingGear
   id: RedWingsMedicGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryFeldsher
-    back: ClothingBackpackSatchelRedWingsParamedic
+    back: ClothingBackpackSatchelBrigmedic
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesHudMedSec
     mask: ClothingMaskNeckGaiterRed
@@ -76,17 +80,26 @@
     - PyraAutoInjector
     - AirlossAutoInjector
     - AntiPoisonMedipen
+    back:
+    - BoxSurvivalBrigmedic
+    - CrowbarRed
+    - MedkitCombatFilled
+    - PinpointerCrew
+    - LaserSMGPowerCell
+    - LaserSMGPowerCell
+    - DefibrillatorCompact
+    - EmergencyRollerBedSpawnFolded
 
 - type: startingGear
   id: RedWingsPilotGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryFeldsher
-    back: ClothingBackpackRedWingsPilotFilled
+    back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesHudMedSec
     mask: ClothingMaskNeckGaiter
     gloves: ClothingHandsGlovesCombat
-    outerClothing: ClothingOuterHardsuitRedWingsSec
+    outerClothing: ClothingOuterHardsuitRedWingsPilot
     suitstorage: WeaponDisablerSMG
     id: RedWingsPilotPDA
     ears: ClothingHeadsetAltFreelancer
@@ -98,7 +111,14 @@
     - Stunbaton
     - Zipties
     - Zipties
+    - Zipties
+    - Zipties
     - Flash
     - MagazinePistol
     - MagazinePistolRubber
     - MagazinePistolRubber
+    back:
+    - BoxSurvivalBrigmedic
+    - CrowbarRed
+    - MedkitCombatFilled
+    - HandHeldMassScanner

@@ -274,14 +274,14 @@
 - type: entity
   parent: IDCardStandard
   id: RedWingsMedicIDCard
-  name: Red Wings Paramedic IDCard
+  name: Red Wings Medic IDCard
   components:
   - type: Sprite
     layers:
     - state: redwings
-    - state: idredwingsparamedic
+    - state: idredwingsmedic
   - type: PresetIdCard
-    job: RedWingsParamedic
+    job: RedWingsMedic
   - type: Tag
     tags:
     - WhitelistPdaIdPainter
