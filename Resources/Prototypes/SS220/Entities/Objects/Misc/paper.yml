@@ -156,6 +156,19 @@
       backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
       contentMargin: 32.0, 16.0, 32.0, 0.0
 
+- type: entity
+  name: paper
+  parent: Paper
+  id: PaperInterdyneForm
+  suffix: Форма Inderdyne
+  description: "A sheet of office paper. The logo on it looks a bit suspicious."
+  components:
+    - type: PaperVisuals
+      headerImagePath: "/Textures/SS220/Interface/Paper/interdyne_pharm_form_header.png"
+      backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+      backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+      contentMargin: 32.0, 16.0, 32.0, 0.0
+
 # Added new CentComm clipboard and folder begin
 
 - type: entity
@@ -621,7 +634,7 @@
       content: station-goal-sports
 
 - type: entity
-  parent: [Paper, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
+  parent: [PaperInterdyneForm, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
   id: RedWingsClientPaper
   name: list of Red Wings' clients
   description: List of clients in this sector.

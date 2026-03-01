@@ -24,7 +24,7 @@ hidden-desc-AdrenalImplant-syndicate = [color=#E31735]Имплант с инъе
 hidden-desc-DeathRattleImplanterFreelance-medical = [color=#52B4E9]Сверив серийные номера, вы понимаете, что это легальный, сертифицированный имплант Interdyne Pharmaceutics внутри.[/color]
 hidden-desc-DeathRattleImplanterFreelance-research = [color=#D381C9]Внутри имплантера находится имплант "Предсмертный хрип".[/color]
 hidden-desc-DeathRattleImplanterFreelance-security = [color=#009ae1]Внутри имплантера находится имплант "Предсмертный хрип" гражданского образца.[/color]
-hidden-desc-DeathRattleImplanterFreelance-syndicate = [color=#e31735]Внутри имплант "Предсмертный хрип" гражданского образца. Сообщит в неизвестный радиоканал, если носитель окажется в критическом состоянии или погибнет.[/color]
+hidden-desc-DeathRattleImplanterFreelance-syndicate = [color=#e31735]Внутри имплант "Предсмертный хрип" гражданского образца. Сообщит в защищенный радиоканал, если носитель окажется в критическом состоянии или погибнет.[/color]
 
 # Regular decriptions below
 
