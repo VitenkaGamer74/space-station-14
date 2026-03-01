@@ -73,48 +73,51 @@ namespace Content.Server.SS220.RedWings
 
             if (allRecords.Count == 0)
             {
-                clientList = new List<string> { Loc.GetString("rw-client-list-none") };
+                    return false;
             }
-            else
+            
+            var forbiddenJobIds = new HashSet<string>();
+            foreach (var deptId in new[] { "Command", "Security" })
             {
-                var forbiddenJobIds = new HashSet<string>();
-                foreach (var deptId in new[] { "Command", "Security" })
+                if (_prototypeManager.TryIndex<DepartmentPrototype>(deptId, out var dept))
                 {
-                    if (_prototypeManager.TryIndex<DepartmentPrototype>(deptId, out var dept))
+                    foreach (var jobId in dept.Roles)
                     {
-                        foreach (var jobId in dept.Roles)
-                        {
-                            forbiddenJobIds.Add(jobId);
-                        }
+                        forbiddenJobIds.Add(jobId);
                     }
                 }
-
-                var filteredRecords = allRecords
-                    .Where(record => !forbiddenJobIds.Contains(record.Item2.JobPrototype))
-                    .ToList();
-
-                if (filteredRecords.Count == 0)
-                {
-                    clientList = new List<string> { Loc.GetString("traitor-codes-none") };
-                }
-                else
-                {
-                    clientList = filteredRecords.Select(record => record.Item2.Name).ToList();
-
-                    _random.Shuffle(clientList);
-                    clientList = clientList.Take(clientAmount).ToList();
-                }
             }
 
-            foreach (var client in clientList)
+            var filteredRecords = allRecords
+                .Where(record => !forbiddenJobIds.Contains(record.Item2.JobPrototype))
+                .ToList();
+                
+            if (filteredRecords.Count == 0)
             {
-                clientMessage.PushNewline();
-                clientMessage.AddMarkupOrThrow(client);
+                return false;
             }
-
+            
+            _random.Shuffle(filteredRecords);
+             var selectedRecords = filteredRecords.Take(clientAmount).ToList();   
+            
+            clientMessage.PushNewline();
+            foreach (var record in selectedRecords)
+            {
+                var name = record.Item2.Name;
+                var dna = record.Item2.DNA;
+                clientMessage.PushNewline();
+                clientMessage.AddMarkupOrThrow($"ФИО: {name}");
+                clientMessage.PushNewline();
+                clientMessage.AddMarkupOrThrow($"ДНК: {dna}");
+                clientMessage.PushNewline();
+                clientMessage.AddMarkupOrThrow("Уровень страховки: ◼ Серебряный ☐ Золотой ☐ Платиновый");
+                clientMessage.PushNewline();
+            }
+            clientMessage.PushNewline();
+            
             if (!clientMessage.IsEmpty)
             {
-                redWingsClientList = Loc.GetString("rw-client-list-okay") + clientMessage;
+                redWingsClientList = Loc.GetString("book-text-rw-client-start") + clientMessage + Loc.GetString("book-text-rw-client-end");
                 return true;
             }
 
