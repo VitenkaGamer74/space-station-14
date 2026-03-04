@@ -23,3 +23,7 @@ job-name-dq-commander = командир Эскадрона Смерти
 job-name-dq-specialist = специалист Эскадрона Смерти
 
 job-name-migo = Ми-Го
+
+job-name-redwings-medic = Медик Красных Крыльев
+job-name-redwings-pilot = Пилот Красных Крыльев
+job-name-redwings-officer = Офицер Красных Крыльев

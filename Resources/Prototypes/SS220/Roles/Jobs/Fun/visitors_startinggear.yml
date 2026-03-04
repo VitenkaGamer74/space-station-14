@@ -53,6 +53,7 @@
     - BoxSurvivalBrigmedic
     - CrowbarRed
     - MedkitCombatFilled
+    - RedWingsClientPaper
 
 - type: startingGear
   id: RedWingsMedicGear
@@ -65,7 +66,7 @@
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitRedWingsMedic
     suitstorage: WeaponLaserSMG
-    id: RedWingsSecurityPDA
+    id: RedWingsMedicPDA
     ears: ClothingHeadsetAltFreelancer
     belt: ClothingBeltSecurityMedical
     pocket1: DoubleEmergencyOxygenTankFilled
@@ -89,6 +90,7 @@
     - LaserSMGPowerCell
     - DefibrillatorCompact
     - EmergencyRollerBedSpawnFolded
+    - RedWingsClientPaper
 
 - type: startingGear
   id: RedWingsPilotGear
@@ -122,3 +124,4 @@
     - CrowbarRed
     - MedkitCombatFilled
     - HandHeldMassScanner
+    - RedWingsClientPaper

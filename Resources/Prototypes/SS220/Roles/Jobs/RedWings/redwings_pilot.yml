@@ -1,10 +1,10 @@
 - type: job
   id: RedWingsPilot
-  name: job-name-red-wings-pilot
-  description: job-description-red-wings-pilot
+  name: job-name-redwings-pilot
+  description: job-description-redwings-pilot
   playTimeTracker: JobRedWingsPilot
   canBeAntag: false
-  icon: RedWingsPilot
+  icon: JobIconRedWingsPilot
   setPreference: false
   overrideConsoleVisibility: true
   access:

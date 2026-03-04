@@ -5,3 +5,27 @@
     sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
     state: magistrate
   jobName: job-name-magistrate
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconRedWingsMedic
+  icon:
+    sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
+    state: RedWingsMedic
+  jobName: job-name-redwings-medic
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconRedWingsOfficer
+  icon:
+    sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
+    state: RedWingsOfficer
+  jobName: job-name-redwings-officer
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconRedWingsPilot
+  icon:
+    sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
+    state: RedWingsPilot
+  jobName: job-name-redwings-pilot
