@@ -1,10 +1,10 @@
 - type: job
   id: RedWingsMedic
-  name: job-name-red-wings-medic
-  description: job-description-red-wings-medic
+  name: job-name-redwings-medic
+  description: job-description-redwings-medic
   playTimeTracker: JobRedWingsMedic
   canBeAntag: false
-  icon: RedWingsMedic
+  icon: JobIconRedWingsMedic
   setPreference: false
   overrideConsoleVisibility: true
   access:

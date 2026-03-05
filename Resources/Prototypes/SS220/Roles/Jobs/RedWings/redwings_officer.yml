@@ -1,10 +1,10 @@
 - type: job
   id: RedWingsOfficer
-  name: job-name-red-wings-officer
-  description: job-description-red-wings-officer
+  name: job-name-redwings-officer
+  description: job-description-redwings-officer
   playTimeTracker: JobRedWingsOfficer
   canBeAntag: false
-  icon: RedWingsOfficer
+  icon: JobIconRedWingsOfficer
   setPreference: false
   overrideConsoleVisibility: true
   access:
