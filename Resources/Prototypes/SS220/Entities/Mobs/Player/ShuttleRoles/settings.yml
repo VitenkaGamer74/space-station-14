@@ -22,7 +22,7 @@
         settings: short
 
 - type: randomHumanoidSettings
-  id: RegWingsOfficer
+  id: RedWingsOfficer
   parent: RedWings
   components:
     - type: GhostRole
@@ -31,10 +31,10 @@
       prototypes: [ RedWingsOfficerGear ]
     - type: AutoImplant
       implants:
-      - DeathRattleImplantFreelance
+      - DeathRattleImplantInterdyne
 
 - type: randomHumanoidSettings
-  id: RegWingsMedic
+  id: RedWingsMedic
   parent: RedWings
   components:
     - type: GhostRole
@@ -43,10 +43,10 @@
       prototypes: [ RedWingsMedicGear ]
     - type: AutoImplant
       implants:
-      - DeathRattleImplantFreelance
+      - DeathRattleImplantInterdyne
 
 - type: randomHumanoidSettings
-  id: RegWingsPilot
+  id: RedWingsPilot
   parent: RedWings
   components:
     - type: GhostRole
@@ -55,4 +55,4 @@
       prototypes: [ RedWingsPilotGear ]
     - type: AutoImplant
       implants:
-      - DeathRattleImplantFreelance
+      - DeathRattleImplantInterdyne
