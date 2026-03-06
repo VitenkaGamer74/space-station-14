@@ -199,9 +199,8 @@
       - state: off-equipped-HELMET
       - state: off-equipped-HELMET-unshaded
         shader: unshaded
-      - state: light-overlay
+      - map: [ "light" ]
         visible: false
-        map: [ "light" ]
   - type: ToggleableVisuals
     spriteLayer: light
     clothingVisuals:
@@ -243,9 +242,8 @@
       - state: off-equipped-HELMET
       - state: off-equipped-HELMET-unshaded
         shader: unshaded
-      - state: light-overlay
+      - map: [ "light" ]
         visible: false
-        map: [ "light" ]
   - type: ToggleableVisuals
     spriteLayer: light
     clothingVisuals:
@@ -287,9 +285,8 @@
       - state: off-equipped-HELMET
       - state: off-equipped-HELMET-unshaded
         shader: unshaded
-      - state: light-overlay
+      - map: [ "light" ]
         visible: false
-        map: [ "light" ]
   - type: ToggleableVisuals
     spriteLayer: light
     clothingVisuals:
