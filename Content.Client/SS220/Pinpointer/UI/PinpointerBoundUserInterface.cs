@@ -18,7 +18,7 @@ public sealed partial class PinpointerBoundUserInterface(EntityUid owner, Enum u
     {
         base.UpdateState(state);
 
-        switch (state)
+        switch (state)//ToDo_SS220 fix cursed pinpointer https://github.com/SerbiaStrong-220/DevTeam220/issues/219
         {
             case PinpointerCrewUIState crewState:
                 if (_crewMenu == null)
@@ -90,6 +90,7 @@ public sealed partial class PinpointerBoundUserInterface(EntityUid owner, Enum u
                     _dnaMenu = this.CreateWindow<PinpointerDnaMenu>();
                     _dnaMenu.OnTargetPicked = OnTargetPicked;
                     _dnaMenu.OnDnaPicked = OnDnaPicked;
+                    _dnaMenu.PopulateList();
                     break;
                 }
             }
