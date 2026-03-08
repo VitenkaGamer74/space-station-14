@@ -98,3 +98,6 @@
   - type: Icon
     sprite: Objects/Devices/pinpointer.rsi
     state: pinpointer-redwings
+  - type: Pinpointer
+    mode: Item
+  
