@@ -98,10 +98,10 @@
       state: icon_empty
 
 - type: entity
-  id: DeathRattleImplanterFreelance
-  name: freelance death rattle implanter
+  id: DeathRattleImplanterInterdyne
+  name: interdyne death rattle implanter
   description: Death rattle.
   parent: BaseImplantOnlyImplanter
   components:
   - type: Implanter
-    implant: DeathRattleImplantFreelance
+    implant: DeathRattleImplantInterdyne

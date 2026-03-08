@@ -29,13 +29,13 @@
     jumpsuit: ClothingUniformJumpsuitMilitaryFeldsher
     back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsCombatFilled
-    eyes: ClothingEyesHudMedSec
+    eyes: ClothingEyesGlassesBallistic
     mask: ClothingMaskNeckGaiter
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitRedWingsSec
     suitstorage: WeaponLaserSMG
     id: RedWingsSecurityPDA
-    ears: ClothingHeadsetAltFreelancer
+    ears: ClothingHeadsetRedWings
     belt: ClothingBeltSecurity
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: WeaponDisabler
@@ -61,13 +61,13 @@
     jumpsuit: ClothingUniformJumpsuitMilitaryFeldsher
     back: ClothingBackpackSatchelBrigmedic
     shoes: ClothingShoesBootsCombatFilled
-    eyes: ClothingEyesHudMedSec
+    eyes: ClothingEyesHudSyndChem
     mask: ClothingMaskNeckGaiterRed
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitRedWingsMedic
     suitstorage: WeaponLaserSMG
     id: RedWingsMedicPDA
-    ears: ClothingHeadsetAltFreelancer
+    ears: ClothingHeadsetRedWings
     belt: ClothingBeltSecurityMedical
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: WeaponDisabler
@@ -98,13 +98,13 @@
     jumpsuit: ClothingUniformJumpsuitMilitaryFeldsher
     back: ClothingBackpackSecurity
     shoes: ClothingShoesBootsCombatFilled
-    eyes: ClothingEyesHudMedSec
+    eyes: ClothingEyesGlassesBallistic
     mask: ClothingMaskNeckGaiter
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitRedWingsPilot
     suitstorage: WeaponDisablerSMG
     id: RedWingsPilotPDA
-    ears: ClothingHeadsetAltFreelancer
+    ears: ClothingHeadsetRedWings
     belt: ClothingBeltSecurity
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: WeaponPistolViper

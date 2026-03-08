@@ -24,7 +24,7 @@
         state: banner
   - type: RandomSpawner
     prototypes:
-    - RandomHumanoidRegWingsOfficer
+    - RandomHumanoidRedWingsOfficer
 
 - type: entity
   name: red wings medic 
@@ -38,7 +38,7 @@
         state: banner
   - type: RandomSpawner
     prototypes:
-    - RandomHumanoidRegWingsMedic
+    - RandomHumanoidRedWingsMedic
 
 - type: entity
   name: red wings pilot
@@ -52,4 +52,4 @@
         state: banner
   - type: RandomSpawner
     prototypes:
-    - RandomHumanoidRegWingsPilot
+    - RandomHumanoidRedWingsPilot

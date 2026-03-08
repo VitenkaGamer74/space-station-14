@@ -255,30 +255,30 @@
 
 - type: entity
   parent: DeathRattleImplant
-  id: DeathRattleImplantFreelance
-  name: freelance death rattle implant
+  id: DeathRattleImplantInterdyne
+  name: interdyne death rattle implant
   description: This implant will inform the Security radio channel should the user fall into critical condition or die.
   categories: [ HideSpawnMenu ]
   components:
   - type: RattleOnTrigger
-    radioChannel: Freelance
+    radioChannel: Interdyne
   - type: HiddenDescription
     entries:
-    - label: hidden-desc-DeathRattleImplanterFreelance-medical
+    - label: hidden-desc-DeathRattleImplanterInterdyne-medical
       jobRequired:
       - Paramedic
       - MedicalDoctor
       - SeniorPhysician
       - Brigmedic
       - ChiefMedicalOfficer
-    - label: hidden-desc-DeathRattleImplanterFreelance-research
+    - label: hidden-desc-DeathRattleImplanterInterdyne-research
       jobRequired:
       - ResearchAssistant
       - ResearchDirector
       - Scientist
       - Borg
       - SeniorResearcher
-    - label: hidden-desc-DeathRattleImplanterFreelance-security
+    - label: hidden-desc-DeathRattleImplanterInterdyne-security
       jobRequired:
       - Captain
       - HeadOfSecurity
@@ -287,7 +287,7 @@
       - Warden
       - Detective
       - BlueShield
-    - label: hidden-desc-DeathRattleImplanterFreelance-syndicate
+    - label: hidden-desc-DeathRattleImplanterInterdyne-syndicate
       whitelistMindRoles:
       - TraitorRole
       - NukeOperative
