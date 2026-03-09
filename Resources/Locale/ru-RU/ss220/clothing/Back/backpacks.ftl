@@ -21,7 +21,6 @@ ent-ClothingBackpackSpaceNinja = рюкзак космического нинд�
 ent-ClothingBackpackERTLeaderGammaFilled = { ent-ClothingBackpackERTLeader }
     .suffix = Гамма ОБР, заполненный
     .desc = { ent-ClothingBackpackERTLeader.desc }
-
 ent-ClothingBackpackERTSecurityGammaFilled = { ent-ClothingBackpackERTSecurity }
     .suffix = Гамма ОБР, заполненный
     .desc = { ent-ClothingBackpackERTSecurity.desc }

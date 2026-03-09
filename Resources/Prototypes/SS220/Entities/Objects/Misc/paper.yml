@@ -634,7 +634,7 @@
       content: station-goal-sports
 
 - type: entity
-  parent: [PaperInterdyneForm, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
+  parent: PaperInterdyneForm
   id: RedWingsClientPaper
   name: list of Red Wings' clients
   description: List of clients in this sector.
@@ -647,4 +647,3 @@
        stampedColor: "#3b704f"
      - stampedName: Red Wings
        stampedColor: "#902922"
-      
