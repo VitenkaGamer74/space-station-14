@@ -15,7 +15,6 @@
   speciesBlacklist: [ Felinid, Diona, Arachnid, Moth, Vox, Reptilian, Skeleton, SlimePerson, Vulpkanin, Tajaran, Dwarf]
   components:
     - type: GhostRole
-      name: ghost-role-information-redwing-name
       description: ghost-role-information-redwing-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
@@ -27,11 +26,16 @@
   components:
     - type: GhostRole
       name: job-name-redwing-officer
+      job: RedWingsOfficer
     - type: Loadout
       prototypes: [ RedWingsOfficerGear ]
     - type: AutoImplant
       implants:
       - DeathRattleImplantInterdyne
+    - type: RandomMetadata
+      nameSegments:
+      - NamesRedwingsLast
+      nameFormat: name-format-redwings-officer
 
 - type: randomHumanoidSettings
   id: RedWingsMedic
@@ -39,11 +43,16 @@
   components:
     - type: GhostRole
       name: job-name-redwing-medic
+      job: RedWingsMedic
     - type: Loadout
       prototypes: [ RedWingsMedicGear ]
     - type: AutoImplant
       implants:
       - DeathRattleImplantInterdyne
+    - type: RandomMetadata
+      nameSegments:
+      - NamesRedwingsLast
+      nameFormat: name-format-redwings-medic
 
 - type: randomHumanoidSettings
   id: RedWingsPilot
@@ -51,8 +60,13 @@
   components:
     - type: GhostRole
       name: job-name-redwing-pilot
+      job: RedWingsPilot
     - type: Loadout
       prototypes: [ RedWingsPilotGear ]
     - type: AutoImplant
       implants:
       - DeathRattleImplantInterdyne
+    - type: RandomMetadata
+      nameSegments:
+      - NamesRedwingsLast
+      nameFormat: name-format-redwings-pilot
