@@ -511,6 +511,12 @@
     sprintModifier: 1
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitRedWingsMedic
+  - type: SpecialSounds
+  - type: Vocal
+    sounds:
+      Male: MaleEvil
+      Female: FemaleEvil
+      Unsexed: MaleEvil
   - type: Tag
     tags:
     - Hardsuit
