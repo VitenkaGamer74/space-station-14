@@ -2,7 +2,7 @@
   id: RedWingsPilot
   name: job-name-redwings-pilot
   description: job-description-redwings-pilot
-  playTimeTracker: JobRedWingsPilot
+  playTimeTracker: JobGhostRole
   canBeAntag: false
   icon: JobIconRedWingsPilot
   setPreference: false
