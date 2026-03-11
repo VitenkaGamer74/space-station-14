@@ -60,9 +60,9 @@ public record struct TrackedItem(NetEntity Entity, string Name, string? Job = nu
 }
 
 [Serializable, NetSerializable]
-public sealed record struct PinpointerDnaUIState(HashSet<TrackedItem> Items) : BoundUserInterfaceState
+public sealed partial class PinpointerDnaUIState(HashSet<TrackedItem> items) : BoundUserInterfaceState
 {
-    public HashSet<TrackedItem> Items = Items;
+    public HashSet<TrackedItem> Items = items;
 }
 
 public enum PinpointerMode//ToDo_SS220 fix cursed pinpointer https://github.com/SerbiaStrong-220/DevTeam220/issues/219
