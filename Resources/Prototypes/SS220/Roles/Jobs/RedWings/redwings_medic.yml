@@ -2,7 +2,7 @@
   id: RedWingsMedic
   name: job-name-redwings-medic
   description: job-description-redwings-medic
-  playTimeTracker: JobGhostRole
+  playTimeTracker: JobRedWingsMedic
   canBeAntag: false
   icon: JobIconRedWingsMedic
   setPreference: false

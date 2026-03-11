@@ -2,7 +2,7 @@
   id: RedWingsOfficer
   name: job-name-redwings-officer
   description: job-description-redwings-officer
-  playTimeTracker: JobGhostRole
+  playTimeTracker: JobRedWingsOfficer
   canBeAntag: false
   icon: JobIconRedWingsOfficer
   setPreference: false
