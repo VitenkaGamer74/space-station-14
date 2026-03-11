@@ -14,7 +14,7 @@
 - type: department
   id: RedWings
   name: department-RedWings
-  description: department-law-redwings
+  description: department-redwings-description
   color: "#772026" #ss220-chatcolor
   roles:
   - RedWingsOfficer
