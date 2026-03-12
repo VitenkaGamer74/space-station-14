@@ -25,8 +25,8 @@
   parent: RedWings
   components:
     - type: GhostRole
-      name: job-name-redwing-officer
-      job: RedWingsOfficer
+      name: ghost-role-information-redwings-officer-name
+      description: host-role-information-redwings-officer-description
     - type: Loadout
       prototypes: [ RedWingsOfficerGear ]
     - type: AutoImplant
@@ -42,7 +42,8 @@
   parent: RedWings
   components:
     - type: GhostRole
-      name: job-name-redwing-medic
+      name: ghost-role-information-redwings-medic-name
+      description: ghost-role-information-redwings-medic-description
       job: RedWingsMedic
     - type: Loadout
       prototypes: [ RedWingsMedicGear ]
@@ -59,7 +60,8 @@
   parent: RedWings
   components:
     - type: GhostRole
-      name: job-name-redwing-pilot
+      name: ghost-role-information-redwings-pilot-name
+      description: ghost-role-information-redwings-pilot-description
       job: RedWingsPilot
     - type: Loadout
       prototypes: [ RedWingsPilotGear ]

@@ -392,7 +392,7 @@
 - type: entity
   id: LockerInterdyneArmory
   parent: LockerBase
-  name: шкаф отряда Красное крыло
+  name: Red Wings locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -405,7 +405,7 @@
 - type: entity
   id: LockerInterdyneArmoryArmored
   parent: LockerBaseSecure
-  name: бронированный шкаф отряда Красное крыло
+  name: Armored Red Wings locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -418,7 +418,7 @@
 - type: entity
   id: LockerInterdyne
   parent: LockerBase
-  name: шкаф Интердайн
+  name: Interdyne locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -431,7 +431,7 @@
 - type: entity
   id: LockerInterdyneArmored
   parent: LockerBaseSecure
-  name: бронированный шкаф Интердайн
+  name: Armored Interdyne locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
