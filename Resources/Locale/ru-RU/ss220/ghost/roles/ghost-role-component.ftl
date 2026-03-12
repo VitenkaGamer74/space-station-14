@@ -42,10 +42,10 @@ ghost-role-information-wizard-name = Волшебник
 ghost-role-information-wizard-desc = ТЫ — ВОЛШЕБНИК! Покажи станции, на что способна твоя магия.
 
 ghost-role-information-redwings-pilot-name = Пилот Красных Крыльев
-ghost-role-information-redwings-pilot-description = Вы гигантская боевая оса. Ваша задача - уничтожить всех кроме представителей вашего вида.
+ghost-role-information-redwings-pilot-description = Вы - пилот отряда "RedWings". Управляйте медицинским судном отряда, чтобы доставить отряд к клиенту.
 
 ghost-role-information-redwings-medic-name = Медик Красных Крыльев
 ghost-role-information-redwings-medic-description = Вы - медик отряда "RedWings". Оказывайте медицинскую помощь своим клиентам и членам отряда.
 
 ghost-role-information-redwings-officer-name = Офицер Красных Крыльев
-ghost-role-information-redwings-officer-description = Вы гигантская боевая оса. Ваша задача - уничтожить всех кроме представителей вашего вида.
+ghost-role-information-redwings-officer-description = Вы - офицер отряда "RedWings". Проведите свой отряд через ад ради благополучия клиента!

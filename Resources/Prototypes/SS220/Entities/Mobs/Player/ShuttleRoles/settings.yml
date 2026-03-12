@@ -26,7 +26,7 @@
   components:
     - type: GhostRole
       name: ghost-role-information-redwings-officer-name
-      description: host-role-information-redwings-officer-description
+      description: ghost-role-information-redwings-officer-description
     - type: Loadout
       prototypes: [ RedWingsOfficerGear ]
     - type: AutoImplant

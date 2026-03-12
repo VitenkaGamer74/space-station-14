@@ -12,7 +12,7 @@
   icon:
     sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
     state: RedWingsMedic
-  jobName: job-name-redwings-medic
+  jobName: ghost-role-information-redwings-medic-name
 
 - type: jobIcon
   parent: JobIcon
@@ -20,7 +20,7 @@
   icon:
     sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
     state: RedWingsOfficer
-  jobName: job-name-redwings-officer
+  jobName: ghost-role-information-redwings-officer-name
 
 - type: jobIcon
   parent: JobIcon
@@ -28,4 +28,4 @@
   icon:
     sprite: /Textures/SS220/Interface/Misc/job_icons.rsi
     state: RedWingsPilot
-  jobName: job-name-redwings-pilot
+  jobName: ghost-role-information-redwings-pilot-name
