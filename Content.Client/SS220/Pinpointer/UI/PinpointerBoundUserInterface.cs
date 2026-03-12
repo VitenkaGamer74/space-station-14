@@ -50,7 +50,6 @@ public sealed partial class PinpointerBoundUserInterface(EntityUid owner, Enum u
         }
     }
 
-
     protected override void Open()
     {
         base.Open();
