@@ -63,7 +63,7 @@ public sealed class PinpointerSystem : EntitySystem
                 UpdateTargetsTrackers(uid, comp);
                 break;
 
-             case PinpointerMode.Dna:
+            case PinpointerMode.Dna:
                 UpdateDnaTrackers(uid, comp);
                 break;
         }
@@ -146,14 +146,14 @@ public sealed class PinpointerSystem : EntitySystem
     }
 
     private void UpdateDnaTrackers(EntityUid uid, PinpointerComponent comp)
-        {
-            comp.TrackedItems.Clear();
+    {
+        comp.TrackedItems.Clear();
 
-            if (string.IsNullOrEmpty(comp.DnaToTrack) || comp.TrackedByDnaEntity == null)
-                return;
+        if (string.IsNullOrEmpty(comp.DnaToTrack) || comp.TrackedByDnaEntity == null)
+            return;
 
-            comp.TrackedItems.Add(new TrackedItem(GetNetEntity(comp.TrackedByDnaEntity.Value), comp.DnaToTrack));
-                }
+        comp.TrackedItems.Add(new TrackedItem(GetNetEntity(comp.TrackedByDnaEntity.Value), comp.DnaToTrack));
+    }
 
     private bool IsTargetValid(PinpointerComponent comp)
     {

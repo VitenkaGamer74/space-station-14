@@ -69,8 +69,6 @@ namespace Content.Server.SS220.RedWings
 
             var allRecords = _stationRecords.GetRecordsOfType<GeneralStationRecord>(station).ToList();
 
-            List<string> clientList;
-
             if (allRecords.Count == 0)
             {
                     return false;
@@ -105,19 +103,15 @@ namespace Content.Server.SS220.RedWings
             {
                 var name = record.Item2.Name;
                 var dna = record.Item2.DNA;
-                clientMessage.PushNewline();
-                clientMessage.AddMarkupOrThrow($"ФИО: {name}");
-                clientMessage.PushNewline();
-                clientMessage.AddMarkupOrThrow($"ДНК: {dna}");
-                clientMessage.PushNewline();
-                clientMessage.AddMarkupOrThrow("Уровень страховки: ◼ Серебряный ☐ Золотой ☐ Платиновый");
-                clientMessage.PushNewline();
+                clientMessage.AddMarkupOrThrow(Loc.GetString("book-text-rw-client-name", ("name", name)) + "\n");
+                clientMessage.AddMarkupOrThrow(Loc.GetString("book-text-rw-client-dna", ("dna", dna ?? ""))+ "\n");
+                clientMessage.AddMarkupOrThrow(Loc.GetString("book-text-rw-client-middle") + "\n");
             }
             clientMessage.PushNewline();
             
             if (!clientMessage.IsEmpty)
             {
-                redWingsClientList = Loc.GetString("book-text-rw-client-start") + clientMessage + Loc.GetString("book-text-rw-client-end");
+                redWingsClientList = Loc.GetString("book-text-rw-client-start") + "\n" + clientMessage + Loc.GetString("book-text-rw-client-end");
                 return true;
             }
 

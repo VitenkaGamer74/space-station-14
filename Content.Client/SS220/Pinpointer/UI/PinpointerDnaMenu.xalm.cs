@@ -12,7 +12,7 @@ namespace Content.Client.SS220.Pinpointer.UI;
 [GenerateTypedNameReferences]
 public sealed partial class PinpointerDnaMenu : FancyWindow
 {
-    public FancyWindow? DnaWindow;
+    private FancyWindow? DnaWindow;
 
     public HashSet<TrackedItem> ItemListSet = [];
 
@@ -90,7 +90,7 @@ public sealed partial class PinpointerDnaMenu : FancyWindow
         }
     }
 
-    private Button? CreateTargetButton(string fullName, Action onClick)
+    private Button CreateTargetButton(string fullName, Action onClick)
     {
         var button = new Button
         {
