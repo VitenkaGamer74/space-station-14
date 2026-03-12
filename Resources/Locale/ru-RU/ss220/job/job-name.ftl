@@ -22,8 +22,22 @@ job-name-dq-operative = оперативник Эскадрона Смерти
 job-name-dq-commander = командир Эскадрона Смерти
 job-name-dq-specialist = специалист Эскадрона Смерти
 
+job-name-death-squad-operative = оперативник Эскадрона Смерти
+job-name-death-squad-leader = лидер Эскадрона Смерти
+job-name-death-squad-healer = медик Эскадрона Смерти
+
 job-name-migo = Ми-Го
 
 job-name-redwings-medic = Медик Красных Крыльев
 job-name-redwings-pilot = Пилот Красных Крыльев
 job-name-redwings-officer = Офицер Красных Крыльев
+
+job-name-security-pet = питомец службы безопасности
+
+job-name-aggressive-animals = агрессивная фауна
+
+job-name-space-dragon = { roles-antag-dragon-name }
+
+job-name-syndicate-borg = киборг Синдиката
+
+job-name-syndicate-reinforcement = подкрепление Синдиката

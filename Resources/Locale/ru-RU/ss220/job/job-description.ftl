@@ -13,3 +13,11 @@ job-description-migo = Вы - возвысившийся культист. Ва�
 job-description-redwings-medic = Вы - медик отряда "RedWings". Оказывайте медицинскую помощь своим клиентам и членам отряда.
 job-description-redwings-pilot = Вы - пилот отряда "RedWings". Управляйте медицинским судном отряда, чтобы доставить отряд к клиенту.
 job-description-redwings-officer = Вы - офицер отряда "RedWings". Проведите свой отряд через ад ради благополучия клиента!
+
+job-description-security-pet = Питомец службы безопасности. Издевайтесь над офицерами или помогайте им.
+
+job-description-space-dragon = { roles-antag-dragon-objective }
+
+job-description-syndicate-borg = { ghost-role-information-syndicate-cyborg-description }
+
+job-description-syndicate-reinforcement = { ghost-role-information-syndicate-reinforcement-description }
