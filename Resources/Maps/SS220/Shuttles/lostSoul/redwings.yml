@@ -36,6 +36,9 @@ entities:
     components:
     - type: MetaData
       name: grid
+    - type: Transform
+      pos: 12.286514,4.466298
+      parent: invalid
     - type: MapGrid
       chunks:
         -1,0:
@@ -1935,6 +1938,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -8.5,-10.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 358
     - type: AtmosPipeColor
       color: '#415EDAFF'
 - proto: GasVentScrubber
@@ -1995,6 +2001,9 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -8.5,-11.5
       parent: 1
+    - type: DeviceNetwork
+      deviceLists:
+      - 358
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
     - type: AtmosPipeColor
