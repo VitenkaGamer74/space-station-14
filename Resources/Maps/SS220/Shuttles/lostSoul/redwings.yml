@@ -36,9 +36,6 @@ entities:
     components:
     - type: MetaData
       name: grid
-    - type: Transform
-      pos: 12.286514,4.466298
-      parent: invalid
     - type: MapGrid
       chunks:
         -1,0:
@@ -542,6 +539,18 @@ entities:
       devices:
       - 192
       - 186
+    - type: Fixtures
+      fixtures: {}
+  - uid: 358
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -10.5,-9.5
+      parent: 1
+    - type: DeviceList
+      devices:
+      - 224
+      - 223
     - type: Fixtures
       fixtures: {}
 - proto: AirlockExternalShuttleInterdyneLocked
@@ -1920,6 +1929,14 @@ entities:
       - 264
     - type: AtmosPipeColor
       color: '#415EDAFF'
+  - uid: 224
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -8.5,-10.5
+      parent: 1
+    - type: AtmosPipeColor
+      color: '#415EDAFF'
 - proto: GasVentScrubber
   entities:
   - uid: 191
@@ -1968,6 +1985,16 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 264
+    - type: AtmosPipeLayers
+      pipeLayer: Tertiary
+    - type: AtmosPipeColor
+      color: '#DC4840FF'
+  - uid: 223
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -8.5,-11.5
+      parent: 1
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
     - type: AtmosPipeColor
