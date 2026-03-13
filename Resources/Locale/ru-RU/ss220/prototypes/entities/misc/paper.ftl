@@ -4,3 +4,6 @@ ent-PaperAirplane = бумажный самолетик
 ent-RedWingsClientPaper = список клиентов "Красных Крыльев"
     .desc = Документ содержащий информацию о клиентах "Красных Крыльев"
     .suffix = Red Wings
+
+ent-PaperInterdyneForm = бумага
+    .desc = Лист белой бумаги с логотипом Interdyne
