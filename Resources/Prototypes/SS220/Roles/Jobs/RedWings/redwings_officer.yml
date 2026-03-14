@@ -1,7 +1,7 @@
 - type: job
   id: RedWingsOfficer
-  name: job-name-redwings-officer
-  description: job-description-redwings-officer
+  name: ghost-role-information-redwings-officer-name
+  description: ghost-role-information-redwings-officer-description
   playTimeTracker: JobRedWingsOfficer
   canBeAntag: false
   icon: JobIconRedWingsOfficer

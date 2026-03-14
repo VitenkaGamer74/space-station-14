@@ -1,7 +1,7 @@
 - type: job
   id: RedWingsMedic
-  name: job-name-redwings-medic
-  description: job-description-redwings-medic
+  name: ghost-role-information-redwings-medic-name
+  description: ghost-role-information-redwings-medic-description
   playTimeTracker: JobRedWingsMedic
   canBeAntag: false
   icon: JobIconRedWingsMedic
