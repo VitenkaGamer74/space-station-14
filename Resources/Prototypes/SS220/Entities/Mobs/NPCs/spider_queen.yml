@@ -403,6 +403,9 @@
   - type: ActionGrant
     actions:
     - ActionSpawnSingleSpiderWebLongDelay
+  - type: JumpAbility
+    jumpDistance: 6
+    jumpSound: /Audio/Voice/Arachnid/arachnid_scream.ogg
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 1
   - type: BasicEntityAmmoProvider
