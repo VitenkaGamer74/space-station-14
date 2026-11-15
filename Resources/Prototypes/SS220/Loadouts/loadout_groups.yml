@@ -438,7 +438,6 @@
   - PilotCapCap
   - PilotBeret
   - HelmetTacSec
-  - SecBeretBlack
 
 - type: loadoutGroup
   id: SecurityPilotOuterClothing
