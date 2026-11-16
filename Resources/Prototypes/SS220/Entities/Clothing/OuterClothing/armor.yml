@@ -148,6 +148,87 @@
   - type: Armor
     showArmorOnExamine: true
 
+- type: entity
+  parent: [ClothingOuterArmorBase, BaseSyndicateContraband]
+  id: ClothingOuterM22Armor
+  name: m-22 "Reaper"
+  description: A piece of body armor that was once popular among the ranks of the XM-13, offering moderate protection against major types of damage. It is the precursor to the raider power suit.
+  components:
+  - type: Sprite
+    sprite: SS220/Clothing/OuterClothing/Armor/m-22.rsi
+    layers:
+    - state: icon
+    - state: icon-flash
+      visible: false
+      map: [ "light" ]
+    - state: light-overlay
+      visible: false
+      shader: unshaded
+  - type: Clothing
+    sprite: SS220/Clothing/OuterClothing/Armor/m-22.rsi
+  - type: ToggleableVisuals
+    spriteLayer: light
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING-light
+        shader: unshaded
+      outerClothing-vox:
+      - state: equipped-OUTERCLOTHING-light-vox
+        shader: unshaded
+  - type: ItemTogglePointLight
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.4
+        Heat: 0.7
+        Caustic: 0.7
+  - type: StaminaResistance
+    damageCoefficient: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: PointLight
+    enabled: false
+    color: "#80ff80"
+    radius: 5
+    energy: 2
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+    netsync: false
+  - type: LightBehaviour
+    behaviours:
+      - !type:FadeBehaviour
+        id: radiating
+        interpolate: Linear
+        maxDuration: 2.0
+        startValue: 3.0
+        endValue: 2.0
+        isLooped: true
+        reverseWhenFinished: true
+      - !type:PulseBehaviour
+        id: blinking
+        interpolate: Nearest
+        maxDuration: 1.0
+        startValue: 0.1
+        endValue: 2.0
+        isLooped: true
+  - type: Battery
+    maxCharge: 600
+    startingCharge: 600
+  - type: BatterySelfRecharger
+    autoRechargeRate: 2
+  - type: Item
+    size: Normal
+  - type: SpecialSounds
+  - type: Vocal
+    sounds:
+      Male: MaleEvil
+      Female: FemaleEvil
+      Unsexed: MaleEvil
+  - type: StaticPrice
+    price: 2500
+
 # OTHER
 
 - type: entity
