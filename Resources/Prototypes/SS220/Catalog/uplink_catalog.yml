@@ -502,6 +502,23 @@
   categories:
   - UplinkWearables
 
+- type: listing
+  id: ClothingClothingM22Armor
+  name: uplink-m22-armor-name
+  description: uplink-m22-armor-desc
+  icon: {sprite: SS220/Clothing/OuterClothing/Armor/m-22.rsi, state: icon}
+  productEntity: ClothingOuterM22Armor
+  cost:
+    Telecrystal: 3
+  dynamicsPrices:
+    LightDynamic:
+      Telecrystal: 4
+    MediumDynamic:
+      Telecrystal: 4
+    HardDynamic:
+      Telecrystal: 3
+  categories:
+  - UplinkWearables
 
 #SS220 SpicyUPD begin
 - type: listing

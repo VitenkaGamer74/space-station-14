@@ -56,3 +56,47 @@
         Caustic: 0.95
   - type: ExplosionResistance
     damageCoefficient: 0.9
+
+- type: entity
+  parent: [ClothingHeadHelmetBasic, BaseStorageItem]
+  id: ClothingHeadHelmetM22
+  name: m-22 helmet
+  description: Standard-issue helmet from the M-22 armor set. Looks like there's still something left inside the pack of cigarettes strapped to the helmet...
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: SS220/Clothing/Head/Helmets/m-22.rsi
+  - type: Clothing
+    sprite: SS220/Clothing/Head/Helmets/m-22.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - Cigarette
+        - Lighter
+        - Cigar
+    grid:
+    - 0,0,1,1
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: 0.95
+        Caustic: 0.95
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingHeadHelmetM22
+  id: ClothingHeadHelmetM22Fuiled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase:
+        id: CigaretteSyndicate
+        amount: 4
